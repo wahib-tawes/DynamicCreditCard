@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #0000b3;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+}
+.card-item {
+  flex-grow: 2;
+}
+.card-name {
+  margin-left: 30%;
+  padding-top: 20px;
+  font-size: 35px;
+}
+.card-emv-chip {
+  display: flex;
+  margin-left: 30px;
+}
+.validity-title {
+  display: flex;
+  margin-left: 40px;
+  font-size: 10px;
+  font-weight: normal;
+}
+.validity-text {
+  margin-top: 50%;
+  font-weight: normal;
+}
+.validity-item {
+  display: flex;
+}
+.card-emv-chip img {
+  height: 17%;
+  width: 17%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  transform: rotate();
+}
+.card-number {
+  font-size: 25px;
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 25%;
+  background: #09791481;
+  stroke-opacity: 0.5;
+}
+.card-under-number {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.card-number span {
+  color: rgba(238, 222, 153, 0.856);
+  letter-spacing: 0.1rem;
+}
+.card-network-logo {
+  width: 30%;
+  flex-grow: 1;
+}
+.card-network-logo img {
+  margin-top: 15px;
+  height: 70%;
+  width: 70%;
+}
+.contain {
+  display: flex;
+  justify-content: space-around;
+}
+.validity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-validation-date {
+  display: flex;
+  align-items: center;
+}
+.card-holder {
+  margin-right: 50%;
+  padding: 20px 0;
+}
+p {
+  margin: 0;
+}
+.p1,
+.text {
+  font-size: 10px;
+}
+.text {
+  margin-top: 10px;
+}
+.p2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-4digits {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}

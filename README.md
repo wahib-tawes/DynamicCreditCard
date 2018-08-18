@@ -1,2 +1,0 @@
-# DynamicCreditCard
-Created with CodeSandbox
